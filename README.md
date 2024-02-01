@@ -1,4 +1,58 @@
 # **Leslie Villegas**
 ## This is me
 ![leslievillegas](https://github.com/CIT82/lesliev-pub/assets/156046351/bb96fcd2-3679-4faa-8e6c-e992da6d7d08)
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Website</title>
+    <link rel="stylesheet" href="style.css" />
+    <script>
+      src = "main.js";
+    </script>
+  </head>
 
+  <body>
+    <header>
+      <h1 class="outline">Welcome to my website</h1>
+    </header>
+    <main>
+      <p>This webpage demonstrates my first efforts in creating a website</p>
+      <section>
+        <h2>My Fav Fruits</h2>
+        <ul>
+          <li>Guava</li>
+          <li>Mango</li>
+          <li>Raspberry</li>
+        </ul>
+      </section>
+      <section>
+        <h2>Steps to Make a Sandwich</h2>
+        <ol>
+          <li>Get bread slices</li>
+          <li>Add your fav fillings</li>
+          <li>Put slices together</li>
+        </ol>
+      </section>
+      <section>
+        <h2>Contact Us</h2>
+        <form action="">
+            <label>Name</label>
+            <input type="text">
+            <label for="">Email:</label>
+            <input type="email">
+            <br>
+            <label>Message</label>
+            <textarea cols="30" rows="10"></textarea>
+            <br>
+            <button>Submit</button> 
+            <br>
+            <a href="https://www.google.com/" target="_blank">Google</a>
+            <br>
+            <a href="https://www.youtube.com/" target="_blank">YouTube</a>
+        </form>
+      </section>
+    </main>
+    <footer>Copyright &copy; Leslie Villegas</footer>
+    <img class= "flower" src="Images/flower.png" alt="smiley flower">
+    <img class="star" src="Images/star.png" alt="smiley star">
+  </body>
